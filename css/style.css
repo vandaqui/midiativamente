@@ -1,36 +1,34 @@
 #wrapper{
-    display: flex;
-    margin: 120px;
+    background-color: rgb(71, 71, 40);
+    height: 100%;
+    width: 100%;
 }
-.content-body p{
+.overlay{
+    background-color: black;
+    z-index: 10;
+}
+.items{
+    display: flex;
+    background-color: tomato;
+    margin: auto;
+    max-width: 900px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.items .content-body p{
     font-size: 25px;
     color: white;
     position: absolute;
     bottom: 0px;
     left: 30%;
 }
-.shadow{
-    
-}
-.container{
-    position: relative;
-}
-.layer1{
-    display: flex;
+.items .item{
     transform: skewX(170deg);
 }
-
-.layer2{
-    transform: skewX(170deg);
-}
-.layer3{
-    transform: skewX(170deg);
-}
-.bg{
+.items .bg{
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
-
+    height: 450px;
 }
