@@ -3,10 +3,6 @@
     height: 100%;
     width: 100%;
 }
-.overlay{
-    background-color: black;
-    z-index: 10;
-}
 .items{
     display: flex;
     background-color: tomato;
@@ -21,9 +17,16 @@
     position: absolute;
     bottom: 0px;
     left: 30%;
+    transform: skewX(10deg);
 }
 .items .item{
     transform: skewX(170deg);
+}
+.items .logo{
+    position: absolute;
+    left: 10%;
+    z-index: 10;
+    transform: skewX(10deg);
 }
 .items .bg{
     display: block;
