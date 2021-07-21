@@ -3,6 +3,26 @@
     height: 100%;
     width: 100%;
 }
+
+/* nav bar */
+.navbar ul{
+    background-color: chocolate;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar li{
+    display: inline;
+    border-right: 1px solid #bbb;
+    font-size: 25px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: rgb(255, 0, 157);
+}
 .items{
     display: flex;
     background-color: tomato;
@@ -24,7 +44,7 @@
 }
 .items .logo{
     position: absolute;
-    left: 10%;
+    left: 12%;
     z-index: 10;
     transform: skewX(10deg);
 }
