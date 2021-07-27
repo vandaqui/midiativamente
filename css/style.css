@@ -16,7 +16,9 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-weight: 100;
+    padding: 0 20px 0 20px;
 }
+
 .navbar li:hover{
     opacity: 0.5;
 }
@@ -27,8 +29,8 @@ body{
 }
 /* main logo */
 .main-logo{
-    max-width: 800px;
-    padding-top: 150px;
+    max-width: 40%;
+    padding: 150px 0 0 0;
     width: 100%;
     display: flex;
     margin: auto;
