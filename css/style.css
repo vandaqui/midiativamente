@@ -6,87 +6,32 @@ body{
 .section{
     height: 100vh;
 }
-/* nav bar */
-.navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.navbar li{
-    display: inline;
-    font-size: 48px;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    padding: 0 20px 0 20px;
-}
-
-.navbar li:hover{
-    opacity: 0.5;
-}
-.navbar li a{
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-}
 /* main logo */
 .main-logo{
-    max-width: 40%;
-    padding: 150px 0 0 0;
-    width: 100%;
-    display: flex;
+    max-width: 35%;
+    padding: 100px 0 0 0;
+    display: block;
     margin: auto;
+}
+.container{
+
+height: 500px;
+
+}
+.group-section{
+    display: block;
+    position: relative;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    background-color: white;
 }
 
-/* items */
-.items{
-    display: flex;
-    margin: auto;
-    max-width: 900px;
-    padding-top: 100px;
-    padding-bottom: 200px;
-}
-.items .content-body p{
-    font-size: 25px;
-    color: white;
-    position: absolute;
-    bottom: 0px;
-    left: 30%;
-    transform: skewX(10deg);
-}
-.items .item{
-    transform: skewX(170deg);
-}
-.items .logo{
-    position: absolute;
-    top: 20%;
-    left: 12%;
-    z-index: 10;
-    transform: skewX(10deg);
-    width: 50%;
-    height: 50%;
-    transition: all 0.3s ease;
-}
-.items .logo:hover{
-    transform: skewX(10deg) scale(0.9);
-}
-.items .bg{
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 450px;
-    border: 2px solid white;
-    border-top: none;
-    border-bottom: none;
-    transition: all 0.3s ease;
-    animation: glow 5s linear infinite;
-}
-.items .bg:hover{
-    border-top: none;
-    border-bottom: none;
-}
 @keyframes glow{
     0%{
         border: 2px solid white;
