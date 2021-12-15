@@ -85,7 +85,7 @@
 }
 .timeline-item--active:before {
   top: 50%;
-  transition: 0.3s all 0.2s;
+  transition: 0.2s all 0.2s;
   opacity: 1;
 }
 .timeline-item--active .timeline__content-title {
@@ -111,12 +111,13 @@
 }
 .timeline__img {
   max-width: 170px;
+  text-transform: none;
 }
 .timeline-container {
   width: 100%;
   position: relative;
   padding: 80px 0;
-  transition: 0.3s ease 0s;
+  transition: 0.2s ease 0s;
   background-attachment: fixed;
   background-size: cover;
 }
