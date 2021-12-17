@@ -146,8 +146,10 @@ body{
   position: relative;
 }
 .timeline-header__title {
+  display: flex;
+  justify-content: center;
+  font-size:  2.5rem;
   color: #fff;
-  font-size: 46px;
   font-family: Cardo;
   font-weight: normal;
   margin: 0;
