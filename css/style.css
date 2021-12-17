@@ -4,6 +4,10 @@ a{
   text-decoration: none;
 }
 
+body{
+  overflow: none;
+}
+
 .timeline {
   display: flex;
   margin: 0 auto;
