@@ -2,9 +2,9 @@
   $.fn.timeline = function() {
     var selectors = {
       id: $(this),
-      item: $(this).find(".timeline-item"),
+      item: $(this).find(".timeline-item, .timeline-item-2"),
       activeClass: "timeline-item--active",
-      img: ".timeline__img"
+      img: (".timeline__img, .header_timeline__img")
     };
     selectors.item.eq(0).addClass(selectors.activeClass);
     selectors.id.css(
@@ -36,7 +36,7 @@
               ")"
           );
           selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max && pos >= min) {
+        } else if (pos <= max + 40 && pos >= min) {
           selectors.id.css(
             "background-image",
             "url(" +
