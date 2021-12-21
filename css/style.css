@@ -4,10 +4,6 @@ a{
   text-decoration: none;
 }
 
-body{
-  overflow: none;
-}
-
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -117,6 +113,11 @@ body{
   .timeline-item:last-child {
     padding-bottom: 40px;
   }
+}
+.header_timeline__img {
+  padding: 0.5rem;
+  max-width: 350px;
+  text-transform: none;
 }
 .timeline__img {
   max-width: 170px;
