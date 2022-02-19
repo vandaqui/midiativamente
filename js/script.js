@@ -55,7 +55,6 @@
 
 $("#timeline-1").timeline();
 
-
 /* Scroll to TOP */
 $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
