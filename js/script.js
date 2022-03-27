@@ -2,7 +2,7 @@
   $.fn.timeline = function() {
     var selectors = {
       id: $(this),
-      item: $(this).find(".timeline-item"),
+      item: $(this).find(".timeline-item, .timeline-item-2"),
       activeClass: "timeline-item--active",
       img: (".timeline__img, .header_timeline__img")
     };

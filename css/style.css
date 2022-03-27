@@ -49,7 +49,7 @@ a{
   }
 }
 .timeline-item {
-  padding: 40px 0;
+  padding: 100px 0;
   opacity: 0.3;
   filter: blur(2px);
   transition: 0.5s;
@@ -57,7 +57,7 @@ a{
   width: calc(50% - 40px);
   display: flex;
   position: relative;
-  transform: translateY(-80px);
+  transform: translateY(-120px);
 }
 .timeline-item:before {
   content: attr(data-text);
@@ -126,7 +126,7 @@ a{
   max-width: 170px;
   text-transform: none;
 }
-.timeline-container, .timeline-container-2{
+.timeline-container{
   width: 100%;
   position: relative;
   padding: 80px 0;
@@ -142,6 +142,14 @@ a{
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
   content: "";
+}
+.timeline-container-2{
+  width: 100%;
+  position: relative;
+  padding: 0px 0;
+  transition: 0.2s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .timeline-container-2:before {
   position: absolute;
@@ -170,8 +178,16 @@ a{
   color: white;
   font-family: "Pathway Gothic One", sans-serif;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 14px;
   margin: 10px 0 0 0;
+  font-weight: normal;
+}
+.timeline-header__subtitle-2 {
+  color: white;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 34px;
+  letter-spacing: 5px;
+  margin: 60px 0;
   font-weight: normal;
 }
 
