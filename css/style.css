@@ -126,7 +126,7 @@ a{
   max-width: 170px;
   text-transform: none;
 }
-.timeline-container{
+.timeline-container, .timeline-container-2{
   width: 100%;
   position: relative;
   padding: 80px 0;
@@ -141,6 +141,14 @@ a{
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
+  content: "";
+}
+.timeline-container-2:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   content: "";
 }
 .timeline-header {

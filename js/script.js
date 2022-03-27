@@ -2,11 +2,10 @@
   $.fn.timeline = function() {
     var selectors = {
       id: $(this),
-      item: $(this).find(".timeline-item, .timeline-item-2"),
+      item: $(this).find(".timeline-item"),
       activeClass: "timeline-item--active",
       img: (".timeline__img, .header_timeline__img")
     };
-    selectors.item.eq(0).addClass(selectors.activeClass);
     selectors.id.css(
       "background-image",
       "url(" +
