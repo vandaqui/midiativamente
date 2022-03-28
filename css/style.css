@@ -103,12 +103,12 @@ a{
   .timeline-item {
     align-self: baseline !important;
     width: 100%;
-    padding: 95px 30px 150px 80px;
+    padding: 95px 30px 95px 80px;
     transform: translateY(-30px);
   }
   .timeline-item:before {
     left: 10px !important;
-    padding: 60px 0 !important;
+    padding: 70px 0 !important;
     top: 50px;
     text-align: center !important;
     width: 60px;
