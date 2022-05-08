@@ -23,7 +23,7 @@ a{
 }
 .timeline__content-desc {
   text-transform: uppercase;
-  margin: 0;
+  margin: 4px 0 8px 0;
   font-size: 1.2rem;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.9);
@@ -31,7 +31,6 @@ a{
   font-weight: normal;
   line-height: 25px;
   letter-spacing: 1px;
-  padding-top: 4px;
   
 }
 .timeline:before {
@@ -97,7 +96,7 @@ a{
   opacity: 1;
 }
 .timeline-item--active .timeline__content-title {
-  margin: -50px 0 0px 0;
+  margin: -44px 0 0px 0;
 }
 .timeline-item .social{
   color: white;
